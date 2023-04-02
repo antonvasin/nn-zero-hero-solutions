@@ -8,3 +8,4 @@ ipython_config.py
 .DS_Store/
 .cache/
 .local/
+.jupyter/
