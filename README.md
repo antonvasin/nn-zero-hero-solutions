@@ -19,4 +19,8 @@ To build and run:
 docker build -t pytorch-notebook:latest
 
 docker run --rm -it -p 8888:8888 -v <this_folder>:/home/jovyan pytorch-notebook:latest
+
+# or
+
+./start.sh
 ```
