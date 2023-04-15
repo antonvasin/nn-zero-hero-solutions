@@ -8,15 +8,18 @@ Working through Andrej Karpathy's [Neural Networks: Zero to Hero](https://karpat
 
 ### 2. makemore 1: bigram model
 
-Notebook: [makemore1.ipynb](./makemore1.ipynb).
+Solution: [makemore1.ipynb](./makemore1.ipynb).
 
-Useful links for practice:
+Links:
 
+- [Jupyter notebook](https://github.com/karpathy/nn-zero-to-hero/blob/master/lectures/makemore/makemore_part1_bigrams.ipynb)
 - Python + Numpy tutorial from [CS231n](https://cs231n.github.io/python-numpy-tutorial/). We use `torch.tensor` instead of `numpy.array` in this video. Their design (e.g. broadcasting, data types, etc.) is so similar that practicing one is basically practicing the other, just be careful with some of the APIs - how various functions are named, what arguments they take, etc. - these details can vary.
 - PyTorch [tutorial on Tensor](https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html)
 - Another [PyTorch intro to Tensor](https://pytorch.org/tutorials/beginner/nlp/pytorch_tutorial.html)
 
 #### Exercises
+
+[Solution](./makemore1_exercises.ipynb)
 
 - [x] Read about [Broadcasting Semantics](https://pytorch.org/docs/stable/notes/broadcasting.html)
 - [x] E01: train a trigram language model, i.e. take two characters as an input to predict the 3rd one. Feel free to use either counting or a neural net. Evaluate the loss; Did it improve over a bigram model?
@@ -28,10 +31,12 @@ Useful links for practice:
 
 ### 3. makemore 2: MLP
 
-[YouTube lecture](https://www.youtube.com/watch?v=TCH_1BHY58I)
+[Notebook](./makemore2.ipynb)
 
 Links:
 
+- [YouTube lecture](https://www.youtube.com/watch?v=TCH_1BHY58I)
+- [Jupyter notebook](https://github.com/karpathy/nn-zero-to-hero/blob/master/lectures/makemore/makemore_part2_mlp.ipynb)
 - [Bengio et al, 2003 MLP Paper](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
 
 #### Exercises
