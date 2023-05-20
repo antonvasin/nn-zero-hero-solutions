@@ -38,6 +38,7 @@ Links:
 - [YouTube lecture](https://www.youtube.com/watch?v=TCH_1BHY58I)
 - [Jupyter notebook](https://github.com/karpathy/nn-zero-to-hero/blob/master/lectures/makemore/makemore_part2_mlp.ipynb)
 - [Bengio et al, 2003 MLP Paper](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+- [PyTorch internals ref](http://blog.ezyang.com/2019/05/pytorch-internals/)
 
 #### Exercises
 
