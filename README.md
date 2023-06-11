@@ -6,7 +6,18 @@ Working through Andrej Karpathy's [Neural Networks: Zero to Hero](https://karpat
 
 ### 1. micrograd
 
-### 2. makemore 1: bigram model
+Solution: [micrograd.ipynb](./micrograd.ipynb)
+
+Links:
+
+- [micrograd repo](https://github.com/karpathy/micrograd)
+- [Jupyter notebooks](https://github.com/karpathy/nn-zero-to-hero/tree/master/lectures/micrograd)
+
+### Exercises:
+
+- Complete the [following Google Collab notebook](https://colab.research.google.com/drive/1FPTx1RXtBfc4MaTkf7viZZD4U2F9gtKN?usp=sharing)
+
+#### 2. makemore 1: bigram model
 
 Solution: [makemore1.ipynb](./makemore1.ipynb).
 
