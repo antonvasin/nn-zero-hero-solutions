@@ -15,7 +15,7 @@ Links:
 
 #### Exercises:
 
-- [ ] Complete the [following Google Collab notebook](https://colab.research.google.com/drive/1FPTx1RXtBfc4MaTkf7viZZD4U2F9gtKN?usp=sharing). [My solution](./micrograd_exercises.ipynb).
+- [x] Complete the [following Google Collab notebook](https://colab.research.google.com/drive/1FPTx1RXtBfc4MaTkf7viZZD4U2F9gtKN?usp=sharing). [My solution](./micrograd_exercises.ipynb).
 
 ### 2. makemore 1: bigram model
 
