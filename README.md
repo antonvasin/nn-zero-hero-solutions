@@ -60,6 +60,27 @@ Links:
   - 2. Can you tune the initialization to get a starting loss that is much more similar to (1)?
 - [ ] E03: Read the Bengio et al 2003 paper (link above), implement and try any idea from the paper. Did it work?
 
+### 4. makemore 3: Activations & Gradients, BatchNorm
+
+[Notebook](./makemore3.ipynb)
+
+Links:
+
+- [YouTube](https://www.youtube.com/watch?v=P6sfmUTpUmc)
+- [Jupyter notebook](https://github.com/karpathy/nn-zero-to-hero/blob/master/lectures/makemore/makemore_part3_bn.ipynb)
+- [collab notebook](https://colab.research.google.com/drive/1H5CSy-OnisagUgDUXhHwo1ng2pjKHYSN)
+
+Useful links:
+
+- ["Kaiming init" paper](https://arxiv.org/abs/1502.01852)
+- [BatchNorm paper](https://arxiv.org/abs/1502.03167)
+- [Good paper](https://arxiv.org/abs/2105.07576) illustrating some of the problems with batchnorm in practice
+
+Exercises:
+
+- [ ] E01: I did not get around to seeing what happens when you initialize all weights and biases to zero. Try this and train the neural net. You might think either that 1) the network trains just fine or 2) the network doesn't train at all, but actually it is 3) the network trains but only partially, and achieves a pretty bad final performance. Inspect the gradients and activations to figure out what is happening and why the network is only partially training, and what part is being trained exactly.
+- [ ] E02: BatchNorm, unlike other normalization layers like LayerNorm/GroupNorm etc. has the big advantage that after training, the batchnorm gamma/beta can be "folded into" the weights of the preceeding Linear layers, effectively erasing the need to forward it at test time. Set up a small 3-layer MLP with batchnorms, train the network, then "fold" the batchnorm gamma/beta into the preceeding Linear layer's W,b by creating a new W2, b2 and erasing the batch norm. Verify that this gives the same forward pass during inference. i.e. we see that the batchnorm is there just for stabilizing the training, and can be thrown out after training is done! pretty cool.
+
 ## Run
 
 Extended [`scipy-notebook`](https://hub.docker.com/r/jupyter/scipy-notebook/) image is used [with additional `pytorch` package](./Dockerfile).
